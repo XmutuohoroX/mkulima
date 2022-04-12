@@ -1,5 +1,6 @@
 <?php include './theme/header.php'?>
-<div class="container-sm mycontainer" id="bcentered">
+
+<div class="w-75 container-sm mycontainer mw-75" id="bcentered">
     <h3 class="text-dark text-center">Sign up</h3>
 <form>
 <div class="mb-3">
@@ -19,4 +20,4 @@
   <p class="text-center">Already have an account? <a href="login.php">login here</a></p>
 </form>
 </div>
-<?php include './theme/footer.php'?>
+<!-- <?php include './theme/footer.php'?> -->

@@ -1,5 +1,11 @@
 body{
-    background-color: rgb(199, 199, 199);
+    /* background-color: rgb(199, 199, 199); */
+    /* background-color: #1abc9c; */
+    background-image:url("https://images.pexels.com/photos/1276237/pexels-photo-1276237.jpeg?cs=srgb&dl=pexels-lukas-hartmann-1276237.jpg&fm=jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .mycontainer{
     background-color: rgb(219, 219, 219);
@@ -12,4 +18,24 @@ body{
         transform: translate(-50%, -50%);
         border: 1px solid #ddd;
         padding: 10px;
+}
+.myBtn {
+    color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 10px;
+  margin: 30px;
+  width: 150px;
+  transition: 0.6s;
+}
+.myLink{
+    text-decoration: none;
+}
+/* .foorer {
+    position: fixed;
+    bottom:0;
+} */
+.myBack {
+    background-image:url("https://images.pexels.com/photos/1276237/pexels-photo-1276237.jpeg?cs=srgb&dl=pexels-lukas-hartmann-1276237.jpg&fm=jpg") ;
 }
