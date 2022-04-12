@@ -13,7 +13,7 @@
     <input type="password" class="form-control" id="password">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <p class="text-center">Dont have an account? <a href="register.php">sign up</a></p>
+  <p class="text-center">Dont have an account? <a href="registration.php">sign up</a></p>
 </form>
 </div>
-<?php include './theme/footer.php'?>
+<!-- <?php include './theme/footer.php'?> -->
