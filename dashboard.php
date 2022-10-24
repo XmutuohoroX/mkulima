@@ -1,7 +1,10 @@
 <?php include './theme/header.php'?>
+<?php
+    require('./include/db.php')
+?>
     <style>
         body{
-            background:#1abc9c;
+            background:#eee;
         }
     </style>
 <nav class="navbar navbar-expand-lg navbar-dark border border-dark bg-dark">

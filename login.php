@@ -1,5 +1,8 @@
 <?php include './theme/header.php'?>
-<div class="container-sm mycontainer" id="bcentered">
+<?php
+    require('./include/db.php')
+?>
+<div class="w-75 container-sm mycontainer" id="bcentered">
     <h3 class="text-dark text-center">Login</h3>
 <form>
 <div class="mb-3">
@@ -16,4 +19,4 @@
   <p class="text-center">Dont have an account? <a href="registration.php">sign up</a></p>
 </form>
 </div>
-<!-- <?php include './theme/footer.php'?> -->
+<!-- <?php //include './theme/footer.php'?> -->

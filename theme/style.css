@@ -10,6 +10,7 @@ body{
 .mycontainer{
     background-color: rgb(219, 219, 219);
     padding: 8px 6px;
+    
 }
 #bcentered{
         position: absolute;

@@ -1,4 +1,7 @@
 <?php include './theme/header.php'?>
+<?php
+    require('./include/db.php')
+?>
 
 <div class="w-75 container-sm mycontainer mw-75" id="bcentered">
     <h3 class="text-dark text-center">Sign up</h3>
@@ -20,4 +23,4 @@
   <p class="text-center">Already have an account? <a href="login.php">login here</a></p>
 </form>
 </div>
-<!-- <?php include './theme/footer.php'?> -->
+<!-- <?php //include './theme/footer.php'?> -->
