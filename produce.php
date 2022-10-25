@@ -58,6 +58,21 @@
         </div>
       </div>
     </nav>
+    <div class="w-75 container-sm mycontainer mw-75" id="bcentered">
+    <h3 class="text-dark text-center">PRODUCTION</h3>
+    <form>  
+  <div class="mb-3">
+    <label for="CollectionDate" class="form-label">Collection Date</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <div class="mb-3">
+    <label for="produce" class="form-label">Milk collected</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <button type="submit" class="btn btn-primary">ADD</button>
+  
+</form>
 
 
     

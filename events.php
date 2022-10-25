@@ -58,6 +58,26 @@
         </div>
       </div>
     </nav>
+    <div class="w-75 container-sm mycontainer mw-75" id="bcentered">
+    <h3 class="text-dark text-center">Events</h3>
+    <form>  
+  <div class="mb-3">
+    <label for="EventDate" class="form-label">Date Recorded</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <div class="mb-3">
+    <label for="EventName" class="form-label">Event</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="EventDate" class="form-label">Comments</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <button type="submit" class="btn btn-primary">ADD</button>
+  
+</form>
 
 
     

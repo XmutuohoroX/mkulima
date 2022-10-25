@@ -58,6 +58,30 @@
         </div>
       </div>
     </nav>
+    <div class="w-75 container-sm mycontainer mw-75" id="bcentered">
+    <h3 class="text-dark text-center">Add new Animal</h3>
+<form>
+<div class="mb-3">
+    <label for="AnimalName" class="form-label">Animal Name</label>
+    <input type="text" class="form-control" id="AnimalName" aria-describedby="emailHelp">
+      </div>
+  <div class="mb-3">
+    <label for="AnimalBreed" class="form-label">Animal Breed</label>
+    <input type="text" class="form-control" id="Animalbreed" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="TagNumber" class="form-label">Tag Number</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="DateOfBirth" class="form-label">Date of Birth</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <button type="submit" class="btn btn-primary">ADD</button>
+  <p class="text-center">Already have an account? <a href="login.php">login here</a></p>
+</form>
 
 
     <?php include './theme/footer.php'?>
